@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+
+  enrollment-reporter-app:
+    #container_name: enrollment-reporter-app
+    #image: enrollment-reporter-app
+    build: enrollment-reporter-app
+    ports:
+      - "8080:8080"
+
+  enrollment-reporter-server:
+    #container_name: enrollment-reporter-server
+    #image: enrollment-reporter-server
+    build: enrollment-reporter-server
+    ports:
+      - "9000:9000"
