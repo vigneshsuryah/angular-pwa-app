@@ -1,7 +1,6 @@
 # Progressive Web App with Angular
 
 This is sample PWA (Progressive Web App) application with Angular 6. \
-Check out our blog if you want to learn more:
 
 ## Repo info
 * ```enrollment-reporter-app``` - Angular 6 PWA application (service workers, push notifications enable/send, save photos in localStorage, save API request in cache)
@@ -11,12 +10,14 @@ Check out our blog if you want to learn more:
 In enrollment-reporter-app_:
 ```
 npm install
-npm run build
+npm run buildws
 ```
 **Info:** \
 With `ng serve` Service Workers doesn't work, so if you run this project first time, you must install mini HTTP server:
 ```
-npm install -g http-server
+npm install -g http-server 
+or
+npm install -g local-web-server 
 ```
 
 ## Run backend 
